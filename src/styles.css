@@ -297,3 +297,43 @@ a {
 a:hover {
   background-color: #575757; /* Changes background on hover */
 }
+
+/*about us page*/
+
+.oaaf-img {
+  padding-top: 100px;
+}
+
+.goals-img {
+  padding-top: 50px;
+}
+
+.icon-size {
+  font-size: 100px;
+}
+
+/*image padding in journal page*/
+
+.a0 {
+  padding-top: 150px;
+}
+
+.a1 {
+  padding-top: 195px;
+}
+
+.a2 {
+  padding-top: 190px;
+}
+
+.a3 {
+  padding-top: 100px;
+}
+
+.a5 {
+  padding-top: 160px;
+}
+
+.a6 {
+  padding-top: 90px;
+}
