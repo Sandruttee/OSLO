@@ -368,3 +368,23 @@ a:hover {
 .margin-spons {
   margin-bottom: 100px;
 }
+
+.small-img {
+  width: 50%;
+  padding-left: 90px;
+}
+
+.spacing-numbers {
+  padding-bottom: 80px;
+}
+
+.margin-sponsor {
+  margin-top: 2px;
+  padding-bottom: 50px;
+}
+
+.spons-list {
+  display: inline;
+  list-style-type: circle;
+  text-align: justify;
+}
