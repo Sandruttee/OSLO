@@ -1,6 +1,12 @@
+:root {
+  --bg: #0b0b0b;
+  --pink: #aa579f;
+  --white-ac: #ffffff;
+}
+
 body {
   font-family: "Poppins";
-  background-color: #444a4c;
+  background-color: rgb(69, 75, 77);
 }
 
 .container {
@@ -15,7 +21,18 @@ section {
 }
 
 main {
-  background-color: white;
+  background-color: var(--bg);
+}
+.small-tittle {
+  color: var(--white-ac);
+}
+.pink-tittle {
+  color: var(--pink);
+}
+
+.italic {
+  font-style: italic;
+  font-size: 14px;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
@@ -39,8 +56,15 @@ header {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.welcome-message {
+  margin-left: 50px;
+  margin-right: 50px;
+  text-align: center;
+  color: white;
+}
+
 .card {
-  background-color: white;
+  background-color: var(--bg);
   margin: 30px 0;
   text-align: center;
 }
@@ -58,7 +82,7 @@ main h5 {
 
 .btn {
   display: block;
-  color: white;
+  color: var(--white-ac);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.5;
@@ -66,7 +90,7 @@ main h5 {
   letter-spacing: 3px;
   text-transform: uppercase;
   padding: 16px;
-  background-color: #996744;
+  background-color: var(--pink);
   text-decoration: none;
 }
 
@@ -173,7 +197,7 @@ main h3 {
 }
 
 .cafes-section {
-  background-color: #f8f8f8;
+  background-color: var(--bg);
 }
 
 .text-center {
