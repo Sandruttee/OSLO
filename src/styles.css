@@ -303,7 +303,7 @@ a:hover {
 /*about us page*/
 
 .oaaf-img {
-  padding-top: 100px;
+  padding-top: 250px;
 }
 
 .goals-img {
@@ -317,7 +317,7 @@ a:hover {
 /*image padding in journal page*/
 
 .a0 {
-  padding-top: 150px;
+  padding-top: 190px;
 }
 
 .a1 {
@@ -325,11 +325,15 @@ a:hover {
 }
 
 .a2 {
-  padding-top: 190px;
+  padding-top: 230px;
 }
 
 .a3 {
   padding-top: 100px;
+}
+
+.a4 {
+  padding-top: 160px;
 }
 
 .a5 {
@@ -337,7 +341,7 @@ a:hover {
 }
 
 .a6 {
-  padding-top: 90px;
+  padding-top: 290px;
 }
 
 /*sponsorship*/
@@ -349,4 +353,18 @@ a:hover {
 .workshop-img {
   width: 100%;
   padding-bottom: 50px;
+}
+
+.no-aspect {
+  width: 100%;
+}
+
+.bold {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: larger;
+}
+
+.margin-spons {
+  margin-bottom: 100px;
 }
