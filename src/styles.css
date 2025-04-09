@@ -192,7 +192,6 @@ main h3 {
   aspect-ratio: 1/1;
 }
 .main-img {
-  aspect-ratio: 3/2;
   margin-top: 150px;
 }
 
@@ -339,4 +338,15 @@ a:hover {
 
 .a6 {
   padding-top: 90px;
+}
+
+/*sponsorship*/
+
+.spons-img {
+  padding-top: 200px;
+}
+
+.workshop-img {
+  width: 100%;
+  padding-bottom: 50px;
 }
