@@ -6,7 +6,7 @@
 
 body {
   font-family: "Poppins";
-  background-color: rgb(69, 75, 77);
+  background-color: rgb(0, 0, 0);
 }
 
 .container {
@@ -274,6 +274,9 @@ main h3 {
 nav {
   background-color: var(--bg);
   padding: 20px;
+}
+.diff-colour {
+  background-color: black;
 }
 
 ul {
