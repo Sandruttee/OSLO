@@ -185,6 +185,9 @@ main h3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+.grid-team {
+  display: grid;
+}
 .embed {
   width: 100%;
   aspect-ratio: 1 /1;
