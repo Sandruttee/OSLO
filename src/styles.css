@@ -392,3 +392,22 @@ a:hover {
   list-style-type: circle;
   text-align: justify;
 }
+
+/* articlesd */
+
+.small-italic {
+  color: white;
+  font-style: italic;
+  font-size: small;
+  align-content: left;
+}
+
+.article-para {
+  color: white;
+  align-content: justify;
+}
+
+.pink-tittle-article {
+  color: var(--pink);
+  padding-bottom: 60px;
+}
