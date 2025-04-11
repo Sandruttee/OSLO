@@ -283,10 +283,10 @@ nav {
 }
 
 ul {
-  list-style-type: none; /* Removes the default list bullets */
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  display: flex; /* Makes the list items appear in a row */
+  display: flex;
 }
 
 li {
@@ -295,13 +295,13 @@ li {
 
 a {
   color: white;
-  text-decoration: none; /* Removes the underline */
+  text-decoration: none;
   padding: 10px;
   display: block;
 }
 
 a:hover {
-  background-color: #575757; /* Changes background on hover */
+  background-color: #575757;
 }
 
 /*about us page*/
@@ -389,8 +389,12 @@ a:hover {
 
 .spons-list {
   display: inline;
-  list-style-type: circle;
   text-align: justify;
+}
+
+.spons-list li::before {
+  content: "✔ ";
+  color: white;
 }
 
 /* articlesd */
