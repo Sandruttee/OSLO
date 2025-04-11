@@ -430,3 +430,49 @@ a:hover {
 .pad-youth {
   padding-top: 100px;
 }
+
+/* events scedule*/
+
+.event {
+  background-color: black;
+  color: var(--pink);
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.event-left {
+  max-width: 60%;
+}
+
+.date {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.3;
+}
+
+.event-right {
+  text-align: right;
+  min-width: 200px;
+  padding-right: 100px;
+}
+
+.time-location {
+  font-size: 14px;
+  color: #d3d3d3;
+  margin-bottom: 5px;
+}
+
+.size-time {
+  font-size: 30px;
+}
