@@ -529,7 +529,7 @@ a:hover {
   padding-bottom: 100px;
 }
 
-/*try*/
+/* Hamburger menu for the mobile*/
 
 .navbar {
   display: flex;
@@ -553,7 +553,6 @@ a:hover {
   color: white;
 }
 
-/* Mobile */
 @media (max-width: 960px) {
   .nav-links {
     display: none;

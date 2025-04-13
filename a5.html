@@ -16,13 +16,12 @@
   <body>
     <div class="container">
       <div class="menu">
-        <nav class="diff-colour">
-          <ul>
-            <li>
-              <a href="index.html"
-                ><img src="images/logo2.png" class="logo"
-              /></a>
-            </li>
+        <nav class="navbar">
+          <a href="index.html">
+            <img src="images/logo2.png" class="logo" />
+          </a>
+          <div class="hamburger" onclick="toggleMenu()">☰</div>
+          <ul class="nav-links" id="navLinks">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About Us</a></li>
             <li><a href="oaaf.html">OAAF</a></li>
@@ -299,5 +298,10 @@
         </section>
       </footer>
     </div>
+    <script>
+      function toggleMenu() {
+        document.getElementById("navLinks").classList.toggle("show");
+      }
+    </script>
   </body>
 </html>
