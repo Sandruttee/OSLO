@@ -421,7 +421,8 @@ a:hover {
 
 .article-para {
   color: white;
-  align-content: justify;
+  text-align: justify;
+  line-height: 30px;
 }
 
 .pink-tittle-article {
