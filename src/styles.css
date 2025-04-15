@@ -530,6 +530,10 @@ a:hover {
   padding-bottom: 100px;
 }
 
+.gallery-colour {
+  background-color: var(--pink);
+}
+
 /* Hamburger menu for the mobile*/
 
 .navbar {
