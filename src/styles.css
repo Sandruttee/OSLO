@@ -193,7 +193,6 @@ main h3 {
 
 .img-res {
   width: 100%;
-  aspect-ratio: 1/1;
 }
 .main-img {
   margin-top: 150px;
@@ -579,4 +578,8 @@ a:hover {
   .hamburger {
     display: block;
   }
+}
+
+.tickets {
+  text-transform: uppercase;
 }
