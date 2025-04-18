@@ -98,6 +98,11 @@ main h5 {
   text-decoration: none;
 }
 
+.btn:hover {
+  background-color: transparent;
+  border: 2px solid var(--pink);
+}
+
 main .grid {
   grid-template-columns: 1fr 1fr;
 }
@@ -313,7 +318,8 @@ a {
 }
 
 a:hover {
-  background-color: #575757;
+  background-color: var(--pink);
+  color: var(--white-ac);
 }
 
 /*about us page*/
@@ -409,7 +415,7 @@ a:hover {
   color: white;
 }
 
-/* articlesd */
+/* articles */
 
 .small-italic {
   color: white;
@@ -516,10 +522,6 @@ a:hover {
   transition: transform 0.3s ease;
 }
 
-.gallery-item img:hover {
-  transform: scale(1.05);
-}
-
 .sponsor-tittle {
   font-size: 40px;
   text-transform: uppercase;
@@ -582,4 +584,16 @@ a:hover {
 
 .tickets {
   text-transform: uppercase;
+}
+
+.event-alignment {
+  text-align: left;
+  margin: 0;
+}
+
+.btn-inverse {
+  margin-top: 20px;
+  background-color: transparent;
+  border: 2px solid var(--pink);
+  color: var(--pink);
 }
