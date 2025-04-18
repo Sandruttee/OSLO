@@ -509,7 +509,7 @@ a:hover {
 .gallery {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  gap: 12px;
+  gap: 20px;
   padding: 20px;
 }
 
@@ -519,7 +519,13 @@ a:hover {
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
+}
+
+.gallery-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
 
 .sponsor-tittle {
@@ -532,7 +538,11 @@ a:hover {
 }
 
 .gallery-colour {
-  background-color: var(--pink);
+  background-color: var(--bg);
+}
+
+.invert {
+  filter: invert(1);
 }
 
 /* Hamburger menu for the mobile*/
