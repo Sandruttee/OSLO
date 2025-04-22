@@ -87,32 +87,42 @@
             <img src="images/goals.jpg" class="no-aspect main-img goals-img" />
           </div>
         </section>
-        <section class="cafes-section">
-          <h2 class="text-center small-tittle">Contact us</h2>
-          <h3 class="text-center pink-tittle">Feel free to reach out to us</h3>
-          <div class="grid-3-columns">
-            <div class="card">
-              <div class="grid-team">
-                <img src="images/mask.jpg" class="img-res" />
-              </div>
-              <h4 class="pink-tittle">Phone number</h4>
-              <p class="small-tittle italic">+47458 52 228</p>
-            </div>
-            <div class="card">
-              <div class="grid-team">
-                <img src="images/mask.jpg" class="img-res" />
-              </div>
-              <h4 class="pink-tittle">Email adress</h4>
-              <p class="small-tittle italic">osloafroarts@gmail.com</p>
-            </div>
 
-            <div class="card">
-              <div class="grid-team">
-                <img src="images/mask.jpg" class="img-res" />
-              </div>
-              <h4 class="pink-tittle">Where to find us?</h4>
-              <p class="small-tittle italic">Grønland, Oslo</p>
-            </div>
+        <h2 class="text-center small-tittle text-space-up">Contact us</h2>
+        <h3 class="text-space pink-tittle">Feel free to reach out to us</h3>
+
+        <section class="contact-section">
+          <form
+            id="contact-form"
+            action="https://formsubmit.co/sandra.placenyte@gmail.com"
+            method="POST"
+            class="contact-form"
+          >
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your Message"
+              required
+            ></textarea>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+
+          <div id="popupMessage" class="popup">
+            <span id="popupText">Thank you for your message!</span>
           </div>
         </section>
       </main>
@@ -176,6 +186,23 @@
       function toggleMenu() {
         document.getElementById("navLinks").classList.toggle("show");
       }
+
+      document
+        .getElementById("contact-form")
+        .addEventListener("submit", function (event) {
+          event.preventDefault();
+
+          const popup = document.getElementById("popupMessage");
+          popup.style.display = "block";
+
+          setTimeout(function () {
+            popup.style.display = "none";
+          }, 3000);
+
+          setTimeout(function () {
+            event.target.submit();
+          }, 3000);
+        });
     </script>
   </body>
 </html>
