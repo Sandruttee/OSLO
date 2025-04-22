@@ -608,6 +608,15 @@ a:hover {
   color: var(--pink);
 }
 
+/* Dance workshops */
+
 .workshop-margin {
   margin-top: 100px;
+}
+
+.gallery-dance {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
 }
