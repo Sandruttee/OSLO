@@ -607,3 +607,7 @@ a:hover {
   border: 2px solid var(--pink);
   color: var(--pink);
 }
+
+.workshop-margin {
+  margin-top: 100px;
+}
