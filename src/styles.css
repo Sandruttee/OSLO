@@ -230,66 +230,6 @@ main h3 {
   grid-gap: 40px;
 }
 
-@media (max-width: 960px) {
-  header {
-    padding: 60px 0;
-  }
-  header h1 {
-    font-size: 48px;
-  }
-  header h2 {
-    font-size: 20px;
-  }
-  header h3 {
-    font-size: 12px;
-  }
-  .text-center {
-    margin-bottom: 20px;
-  }
-  p,
-  ul,
-  h4 {
-    text-align: center;
-  }
-  main .grid,
-  .grid,
-  .grid-3-columns,
-  .grid-cafe-maps,
-  .grid-instagram {
-    grid-template-columns: 1fr;
-    grid-gap: 32px;
-  }
-  .main-img {
-    margin-top: 10px;
-  }
-  section {
-    padding: 30px;
-  }
-  .img-res {
-    margin-top: 0;
-  }
-  .cafes-section .img-res {
-    display: none;
-  }
-  .embed {
-    aspect-ratio: 16 / 9;
-    width: 100%;
-  }
-  /* mobile full width */
-  .container {
-    width: 100%;
-    max-width: none;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  .menu {
-    width: 100%;
-    max-width: 1400px;
-    margin: 0 auto;
-    box-sizing: border-box;
-  }
-}
-
 /* Navigation styling */
 nav {
   background-color: var(--bg);
@@ -569,29 +509,6 @@ a:hover {
   color: white;
 }
 
-@media (max-width: 960px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    background-color: var(--bg);
-    position: absolute;
-    top: 70px;
-    right: 20px;
-    width: 200px;
-    border: 1px solid #333;
-    padding: 20px;
-    z-index: 1000;
-  }
-
-  .nav-links.show {
-    display: flex;
-  }
-
-  .hamburger {
-    display: block;
-  }
-}
-
 .tickets {
   text-transform: uppercase;
 }
@@ -690,6 +607,16 @@ a:hover {
   width: 400px;
   text-align: center;
 }
+.text-space {
+  text-align: center;
+}
+
+.text-space-up {
+  margin-top: 100px;
+}
+.text-justify {
+  text-align: justify;
+}
 
 @keyframes fadeInOut {
   0% {
@@ -710,10 +637,100 @@ a:hover {
   }
 }
 
-.text-space {
-  text-align: center;
-}
+@media (max-width: 960px) {
+  main .grid,
+  .grid,
+  .grid-3-columns,
+  .grid-cafe-maps,
+  .grid-instagram {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+  .main-img {
+    margin-top: 10px;
+  }
+  section {
+    padding: 30px;
+  }
+  .img-res {
+    margin-top: 0;
+  }
 
-.text-space-up {
-  margin-top: 100px;
+  .embed {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+  }
+  /* mobile full width */
+  .container {
+    width: 100%;
+    max-width: none;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .menu {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  .welcome-message {
+    margin-left: 1px;
+    margin-right: 1px;
+    text-align: justify;
+    color: white;
+  }
+  .oaaf-img {
+    padding-top: 10px;
+  }
+  section {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 1px;
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: var(--bg);
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    width: 200px;
+    border: 1px solid #333;
+    padding: 20px;
+    z-index: 1000;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  .text-center {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  header {
+    padding: 60px 0;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 48px;
+    text-align: center;
+  }
+  header h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+  header h3 {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  ul,
+  h4 {
+    text-align: center;
+  }
 }
