@@ -705,6 +705,7 @@ a:hover {
   }
 
   .text-center {
+    margin-top: 20px;
     margin-bottom: 20px;
     text-align: center;
   }
@@ -732,5 +733,39 @@ a:hover {
   ul,
   h4 {
     text-align: center;
+  }
+  .a0 {
+    padding-top: 10px;
+  }
+
+  .a1 {
+    padding-top: 10px;
+  }
+
+  .a2 {
+    padding-top: 10px;
+  }
+
+  .a3 {
+    padding-top: 10px;
+  }
+
+  .a4 {
+    padding-top: 10px;
+  }
+
+  .a5 {
+    padding-top: 10px;
+  }
+
+  .a6 {
+    padding-top: 10px;
+  }
+  .journal-spacing {
+    margin-bottom: 100px;
+  }
+
+  .spons-img {
+    padding-top: 50px;
   }
 }
