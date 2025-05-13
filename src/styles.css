@@ -40,12 +40,16 @@ main {
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../images/background.jpg");
+    url("../images/hero.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   text-align: center;
   padding: 260px 0;
+}
+
+.spacing-hero {
+  margin-top: 40px;
 }
 
 .grid {
