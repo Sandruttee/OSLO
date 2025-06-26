@@ -622,6 +622,12 @@ a:hover {
   text-align: justify;
 }
 
+.center-singers {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
 @keyframes fadeInOut {
   0% {
     opacity: 0;
