@@ -458,7 +458,7 @@ a:hover {
 }
 
 .gallery-item img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   object-fit: cover;
   border-radius: 10px;
@@ -626,6 +626,10 @@ a:hover {
   display: flex;
   justify-content: center;
   gap: 20px;
+}
+
+.item2 {
+  width: 400px;
 }
 
 @keyframes fadeInOut {
